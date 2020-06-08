@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useReducer } from "react";
+import Form from "./components/TodoForm";
+import List from "./components/TodoList";
+
+const todolist = [
+  {
+    task: "Get Shit Done",
+    id: 3892987589,
+    completed: false,
+  },
+];
 
 function App() {
+  const onFocus = (event) => {
+    event.target.placeholder = "";
+  };
+
+  const onBlur = (event) => {
+    event.target.placeholder = "Add To-Do's";
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h2>Welcome to your Todo App!</h2>
+      <Form onFocus={onFocus} onBlur={onBlur} />
     </div>
   );
 }
