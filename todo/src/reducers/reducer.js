@@ -8,7 +8,7 @@ export const initialState = {
 };
 //
 // Reducer always takes in (state, action)
-export const reducer = (state, action) => {
+export const Reducer = (state, action) => {
   const newState = [...state];
 
   switch (action.type) {
