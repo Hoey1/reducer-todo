@@ -16,23 +16,23 @@ In this project, you build an app that let's you display a todo list from reduce
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal.
-- [ ] CD into the project base directory `cd reducer-todo`.
-- [ ] Create a new react app running `npx create-react-app todo --use-npm`.
-- [ ] CD into the react app directory `cd todo`.
-- [ ] Start up the app using `npm start`.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [⚾] Create a forked copy of this project.
+- [⚾] Add your team lead as collaborator on Github.
+- [⚾] Clone your OWN version of the repository in your terminal.
+- [⚾] CD into the project base directory `cd reducer-todo`.
+- [⚾] Create a new react app running `npx create-react-app todo --use-npm`.
+- [⚾] CD into the react app directory `cd todo`.
+- [⚾] Start up the app using `npm start`.
+- [⚾] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [⚾] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [⚾] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete by merging the branch back into master.
-- [ ] Do your magic!
+- [⚾] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [⚾] Add your team lead as a reviewer on the pull-request
+- [⚾] Your team lead will count the project as complete by merging the branch back into master.
+- [⚾] Do your magic!
 
 ## Minimum Viable Product
 
@@ -43,8 +43,8 @@ Follow these steps for completing your project.
 
 ### STEP 1 - Build a simple reducer and initial state
 
-- In a folder called `reducers` add a reducer file and build out a simple reducer with just a default return for now
-- In the same file, build your initial state object that has a list of todos with the following shape:
+- [⚾] In a folder called `reducers` add a reducer file and build out a simple reducer with just a default return for now
+- [⚾] In the same file, build your initial state object that has a list of todos with the following shape:
 
 ```js
 {
@@ -54,7 +54,7 @@ Follow these steps for completing your project.
 }
 ```
 
-- Export both the reducer and the initial state object
+- [⚾] Export both the reducer and the initial state object
 
 ### STEP 2 - Set up state in your component
 
